@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  height: 600px;
+  margin: 50px auto;
+  padding: 0 30px;
+  background-color: bisque;
+  border-radius: 25px;
+}
+.container h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px 0;
+}
+.container h2 {
+  padding-bottom: 30px;
+}
+.container .ticket p,
+.container .ticket h3 {
+  padding-bottom: 10px;
+}
+.container .ticket #km,
+.container .ticket #age {
+  font-weight: 600;
+}
